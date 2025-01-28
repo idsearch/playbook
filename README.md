@@ -65,3 +65,11 @@ erfassung als formular
 playbook erfassen
 
 [playbook version 1.0](https://idsearch.github.io/multiform.html)
+
+![alt text](image-1.png)
+
+## Archtitektur
+
+- static webserver over CORS to AWS Eventbridge Rule Stepfunction dynamoDB
+
+![alt text](image-2.png)
